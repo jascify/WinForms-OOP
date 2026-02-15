@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{530398B0-F962-4B91-8CFC-2E45F9721F34}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Aguilar__Jasmine_Miel</RootNamespace>
+    <AssemblyName>Aguilar, Jasmine Miel</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="LogIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogIn.Designer.cs">
+      <DependentUpon>LogIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CalculateAge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CalculateAge.Designer.cs">
+      <DependentUpon>CalculateAge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyResume.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyResume.Designer.cs">
+      <DependentUpon>MyResume.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistrationForm.Designer.cs">
+      <DependentUpon>RegistrationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Calculator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calculator.Designer.cs">
+      <DependentUpon>Calculator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AgeCalculator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgeCalculator.Designer.cs">
+      <DependentUpon>AgeCalculator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DaysOfTheWeek.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DaysOfTheWeek.Designer.cs">
+      <DependentUpon>DaysOfTheWeek.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Temperature.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Temperature.Designer.cs">
+      <DependentUpon>Temperature.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentGWA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentGWA.Designer.cs">
+      <DependentUpon>StudentGWA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AreaOfRectangle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AreaOfRectangle.Designer.cs">
+      <DependentUpon>AreaOfRectangle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TicTacToe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TicTacToe.Designer.cs">
+      <DependentUpon>TicTacToe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VerifyCharacter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VerifyCharacter.Designer.cs">
+      <DependentUpon>VerifyCharacter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="LogIn.resx">
+      <DependentUpon>LogIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CalculateAge.resx">
+      <DependentUpon>CalculateAge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyResume.resx">
+      <DependentUpon>MyResume.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistrationForm.resx">
+      <DependentUpon>RegistrationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calculator.resx">
+      <DependentUpon>Calculator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgeCalculator.resx">
+      <DependentUpon>AgeCalculator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DaysOfTheWeek.resx">
+      <DependentUpon>DaysOfTheWeek.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Temperature.resx">
+      <DependentUpon>Temperature.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentGWA.resx">
+      <DependentUpon>StudentGWA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AreaOfRectangle.resx">
+      <DependentUpon>AreaOfRectangle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TicTacToe.resx">
+      <DependentUpon>TicTacToe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VerifyCharacter.resx">
+      <DependentUpon>VerifyCharacter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
