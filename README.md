@@ -36,6 +36,15 @@ Only the solution file and project folders are required. `bin/` and `obj/` are a
 
 ---
 
+## 🔑 Login Details
+
+Use the following credentials to access the application:
+
+- **Username:** admin  
+- **Password:** 123456
+
+---
+
 ## 📸 Screenshots
 
 <img src="screenshots/calculator.png" width="400px" />  
