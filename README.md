@@ -38,3 +38,8 @@ Only the solution file and project folders are required. `bin/` and `obj/` are a
 
 ## 📸 Screenshots
 
+<img src="screenshots/calculator.png" width="400px" />  
+<img src="screenshots/login.png" width="400px" />  
+<img src="screenshots/registration-form.png" width="400px" />  
+<img src="screenshots/social-media.png" width="400px" />  
+<img src="screenshots/tictactoe.png" width="400px" />
